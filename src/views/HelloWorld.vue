@@ -1,13 +1,13 @@
 <template>
   <div class="hello">
-
+11111111111111111111111111
   </div>
 </template>
 
 <script>
   import axios from 'axios'
 export default {
-  name: 'HelloWorld',
+
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
@@ -18,7 +18,7 @@ export default {
           console.log("11111111shuai");
           axios({
             method:"get",
-            url:'api/test/test'
+            url:'api/xianshivue'
           })
             .then(function (response) {
               console.log("11111111shuai",response);

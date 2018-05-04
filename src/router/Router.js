@@ -5,7 +5,7 @@
 
 export const routes =[
   {
-    path: '/',
+    path: '/shuai',
     name: 'HelloWorld',
     component: () => import('@/views/HelloWorld')
   }
